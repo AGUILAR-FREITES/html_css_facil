@@ -1,0 +1,29 @@
+:root{
+    font-size: 0.875em;
+
+}
+
+.panel{
+    border: 1px solid #999;
+    padding: 1em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    max-width: 70%;
+    margin: 20% auto;
+}
+
+@media (min-width: 800px){
+    .panel{
+        background: blue;
+        color: white;
+    }
+}
+@media (min-width: 900px){
+    .panel{
+        background: #212121;
+        
+    }
+}
