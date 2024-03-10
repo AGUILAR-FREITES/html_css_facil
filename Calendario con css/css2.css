@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+.container {
+    margin: 20% auto;
+    width: 500px;
+    /* background-color: #d4d1d0; */
+    
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+}
+
+select {
+    width: 247px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+}
+thead {
+    background-color: #8f9191;
+    color: white;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.5);
+}
+
+th,
+td {
+    /* border: 1px solid black; */
+    padding: 15px;
+    text-align: center;
+}
+
+.dia0{
+    color: #868383;
+}
+
+.dia {
+    color: #f85353;
+}
+
+.dia2 {
+    background-color: #f85353;
+    border-radius: 25%;
+    color: #f3eeee;
+}
+
+.dia3 {
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn input {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.btn-ap{
+    background: blue;
+    color: white;
+}
