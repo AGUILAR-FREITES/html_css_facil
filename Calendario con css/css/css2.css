@@ -80,6 +80,10 @@ td {
     -o-border-radius: 12px;
 }
 
+.btn-bk{
+    background: #c6c8c8;
+}
+
 .btn-ap{
     background: blue;
     color: white;
