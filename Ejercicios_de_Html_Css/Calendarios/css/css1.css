@@ -4,3 +4,59 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 0.785rem;
+    font-family: 'Lato', sans-serif;
+    --grey: #f3f4f5;
+}
+
+body{
+    background-color: #cecfd1;
+}
+
+div{
+    margin: 9em auto;
+    width: 50%;
+    font-size: 1.9rem;
+    background: white;
+    border-radius: 2.5rem;
+    padding-top: 1em;
+}
+
+form{
+    text-align: center;
+}
+
+select{
+    font-size: 1.5rem;
+    padding: 0.6em;
+    min-width: 45%;
+    border-radius: 1.3rem;
+    background-color: var(--grey);
+    border-right: 16px solid transparent; /*Para hacer separacion*/
+}
+
+select:first-of-type{
+    margin-right: 0.5em;
+}
+
+table{
+    margin: 0 auto;
+    font-size: 1.3rem; 
+    width: 100%;
+    margin-top: 0.5em;
+    background-color: var(--grey);
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr:first-of-type td{
+    background-color: white;
+    color: #c5c8ca;
+}
+
+td{
+    padding: 0.5em 0 0.6em;
+    color: black;
+    text-align: center;
+}
