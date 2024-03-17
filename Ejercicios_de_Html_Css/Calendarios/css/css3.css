@@ -25,26 +25,50 @@ body{
 }
 
 .container{
-    position: absolute;
+    /*position: absolute;
     margin: -850px 370px;
     width: 300px;
     background-color: #FF685E;
     border-radius: 10px;
     overflow: hidden;
+    */
+    
+    /* background-image: url("/Ejercicios_de_Html_Css/Calendarios/img/sendero.avif") no-repeat top/center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 1rem ;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 
+    
 }
 
+
+
 img{
-    width: 300px;
+    width: 334px;
     height: 300px;
-   /* border-radius:  10px; */
-   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
 
 table{
     width: 100%;
+    border-spacing: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 2em 1em;
+    /* margin-top: 100%; */
     /* text-align: left; */
     /* border-collapse: collapse; */
     /* margin-bottom: 20px; */
@@ -55,6 +79,11 @@ table{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+
+    
+    /* text-align: center;
+    color: #c5c8ca; */
+    
 }
 
 .imagen{
@@ -90,14 +119,19 @@ th, td {
 
 
 
-.diax{
+/* .diax{
     color: #FF734A;
     font-weight: 600;
-}
+} */
 
 .dia{
     background-color: #0e700c;
     border-radius: 10%;
     width: 0%;
     color: white;
+}
+
+tr td:nth-child(7){
+    color: #ff685d;
+    font-weight: bold;
 }
