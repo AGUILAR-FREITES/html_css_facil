@@ -83,5 +83,5 @@ a{
 }
 
 a:active, a:visited, a:hover{
-    color: ;
+    color: var(--dark-blue);
 }
