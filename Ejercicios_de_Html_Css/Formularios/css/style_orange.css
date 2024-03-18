@@ -51,7 +51,7 @@ input{
     padding: 1em;
     width: 100%;
     margin-bottom: 2em;
-    box-shadow: 2px 2px 2em #b6b3b3;
+    box-shadow: 2px 2px 1em #949292;
 }
 
 button{
@@ -64,10 +64,6 @@ button{
     border-radius: 0.5rem;
     box-shadow: 2px 9px 2em #949292;
     border: none;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
     
 }
 
