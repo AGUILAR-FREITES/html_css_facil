@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    /*border: 1px solid black;
+    */width: 45%;
+    height: 66vh;
+    margin: 250px auto;
+    padding: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 2px 9px 2em #939391;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+h3{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B7B7B6;
+}
+
+
+
+.container hr{
+    border-color: #fbfbf7;
+}
+
+.agenda{
+    position: relative;
+    /* border: 1px solid blue; */
+    padding: 3em;
+    margin-top: 20px;
+    background-color: #FF97A6;
+    color: #fff;
+    box-shadow: 5px 9px 5em #939391;
+}
+
+
+h5{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cruz{
+    position: absolute;
+    margin-left: 230px;
+    border: 1px solid ;
+    width: 40px;
+    height: 40px;
+    transform: translate(20%, -90%);
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transform: translate(20%, -90%);
+    -moz-transform: translate(20%, -90%);
+    -ms-transform: translate(20%, -90%);
+    -o-transform: translate(20%, -90%);
+}
+
+.cruz span{
+    margin-left: 10px;
+    color: #B7B7B6;
+    font-weight: 900;
+    
+    
+}
+
+.eventos{
+    /* border: 1px solid rgb(237, 124, 220); */
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.eventos p{
+    color: #939391
+}
+
+
+
+ul{
+    margin-top: 1em;
+    padding: 0.2em;
+    list-style: none;
+    
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+li::before{
+    font-size: 40px;
+    content:" \2022";
+    padding-right: 16px;
+    color: #A69EA1;
+    
+}
+.content::before{
+    color: #FF7D90;
+}
+
+
+span{
+    
+    font-size: 30px ;
+}
+
+p{
+    margin-left: 40px;
+}
+
+.p1{
+    transform: translate(-15%);
+    -webkit-transform: translate(-15%);
+    -moz-transform: translate(-15%);
+    -ms-transform: translate(-15%);
+    -o-transform: translate(-15%);
+}
