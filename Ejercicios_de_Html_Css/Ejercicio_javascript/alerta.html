@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="main">
+
+            <div class="p1">
+                
+                <h5>La función siguiente muestra un mensaje al usuario:</h5>
+            </div>
+        
+            <div class="container">
+    
+                <div class="function">
+                   <pre>function mostrarMsj(msj)</pre>  <br />
+    
+                    { <br />
+                    <span> alert("El mensaje es: " +msj);<br /> </span>
+                    <span> mostrado = true;<br /> </span>
+                    }
+                </div>
+    
+            </div>
+
+            <div class="p2">
+                
+                <h5>Pero para que funcione correctamente necesitas declarar primero la variable global:</h5>
+            </div>
+    
+            <div class="container2">
+                <p>var mostrado = false;</p>
+            </div>
+
+            <div class="p2">
+                
+                <h5>Las cosas que necesitarás están listadas aquí: -Una linterna. -Una brújula. -Un mapa.</h5>
+
+                    <ul>
+                        <h3>Las cosas que necesitarás están listadas aquí </h3>
+                        <li>una linterna.</li>
+                        <li>Una brújula.</li>
+                        <li>Un mapa</li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: #282A2C;
+            }
+
+            .main{
+                border: 1px solid black;
+                width: 90%;
+                height: 58vh;
+                margin: 15% auto;
+                background-color: #fff;
+            }
+
+            .p1{
+                /* border: 1px solid blue; */
+                width: 90%;
+                margin: 3em auto;
+                margin-left: 20px;
+                margin-bottom: 5px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .p2{
+                /* border: 1px solid blue; */
+                width: 90%;
+                margin: 3em auto;
+                margin-left: 20px;
+                margin-top: -30px;
+                margin-bottom: -30px;
+            }
+
+                h5{
+                    
+                    font-weight: 300;
+                    font-size: 20px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+                h3{
+                    font-weight: 300;
+                }
+
+
+            ul{
+                margin-top: 10px;
+                margin-left: 30px;
+                padding: 10px;
+                list-style: none;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            li{
+                padding: 10px;
+            }
+            li::before{
+                content: " -  ";
+            }
+
+
+
+            .container {
+                border: 1px solid black;
+                width: 90%;
+                margin: 3em auto;
+                border-radius: 12px;
+                background-color: black;
+                margin-top: 20px;
+                
+            }
+
+            .function {
+                padding: 20px;
+                color: #C1AE7D;
+            }
+
+            pre{
+                font-size: 25px;
+                color: #C1AE7D;
+            }
+
+            .container
+            .function span {
+                margin-left: 20px;
+                font-size: 25px;
+                color: #C1AE7D;
+            }
+
+            .container2 {
+                border: 1px solid black;
+                width: 90%;
+                margin: 3em auto;
+                border-radius: 12px;
+                background-color: black;
+            }
+
+            .container2 p {
+                font-size: 25px;
+                padding: 20px;
+                color: #C1AE7D;
+            }
+        </style>
+    </body>
+</html>
