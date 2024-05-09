@@ -1,0 +1,53 @@
+body{
+    background-color: beige;
+
+}
+
+.flex-container{
+    border: 1px solid black;
+    background-color: #ccc;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    /* align-items:  center; cuando la caja no tiene height (altura ) este la condiciona a su estado natural como se ve  en la pagina*/
+} 
+
+.caja{
+    border: 1px solid #464545;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    /* height: 120px; */
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+    /* float: left; */
+}
+
+.c1{
+    background: lightblue;
+    order: 3; /*Puede cambiar de posicion entre las cajas*/
+    flex-grow: 5; /*EWl flex-grow edita el width*/
+    flex-basis: 50%;
+}
+
+.c2{
+    background: lightcoral;
+    order: 3;
+    flex-grow: 1;
+}
+
+.c3{
+    background: lightgreen;
+    order: 2;
+    flex-grow: 1;
+}
