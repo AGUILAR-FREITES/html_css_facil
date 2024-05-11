@@ -17,7 +17,7 @@ body{
 div{
     /*border: 1px solid black;
     */width: 20%;
-    margin: 15em auto;
+    margin: 15em auto; /*Para centrar un div pero con em*/
     padding: 2em;
     font-family: "Lato", sans-serif;
     font-size: 1rem;
