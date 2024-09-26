@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Ejercicios_de_Html_Css/ATR11/Ejercicios/css/style.css">
+    <title>combinadores</title>
+
+    <style>
+        div, p{
+            margin: 5px;
+            border: 3px solid;
+        }
+
+        #page >div{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="page">
+        <div>
+            div1
+            <p>parrafo1</p>
+            <div>
+                div2
+                <div>dv3</div>
+                <p>parrafo2</p>
+                <div>div4</div>
+                <div>div5</div>
+                <p>parrafo3</p>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
