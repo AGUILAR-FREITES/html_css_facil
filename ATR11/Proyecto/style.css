@@ -4,26 +4,34 @@
     padding: 0;
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
     padding-inline: 10px;
-    /* gap: 10px; */
+    background: #1A1D24;
+    color: white;
+   
 }
 
-
-header img{
-    background: black;
+li{
+    list-style-type: none;
 }
 
+a{
+    color: white;  
+}
 
 
 .menu ul{
     display: flex;
     gap: 5px;
-    list-style: none;
+   
     
 
 }
@@ -34,13 +42,20 @@ header img{
 
 }
 
-.search{
+/* .search{
     margin-left: 70px;
-    margin-right: -130px;
+    margin-right: -110px;
+} */
+
+.tool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .search a{
-    margin-right: 40px;
+    margin-right: 2cqw;
 }
 
 .social ul{
