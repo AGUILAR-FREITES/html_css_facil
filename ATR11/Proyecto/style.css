@@ -104,3 +104,13 @@ header .tool .social ul{
     font-weight: bold;
 }
 
+.new .aside .list .item{
+    display: flex;
+    gap: 18px;
+}
+
+.new .aside .item .item-title{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
