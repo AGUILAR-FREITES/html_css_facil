@@ -96,6 +96,49 @@ header .tool .social ul{
     gap: 30px;
 }
 
+.new {
+    position: relative;
+}
+
+.new .img-principal .title{
+    max-inline-size: 400px;
+    padding-block-start: 33px;
+    padding-inline-start: 29px;
+    position: absolute;
+    /* right: -400px;
+    bottom: 0; */
+    background: #1a1d24;
+    right: 150px;
+    bottom: 0;
+}
+
+ .new .img-principal .title h2{
+    font-size: 37px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .new .img-principal .title p{
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-block: 24px;
+    
+}
+ .new .img-principal .title a{
+    font-size: 13px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.main .new .img-principal img{
+    height: 610px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .new .aside .title{
     color: white;
     font-size: 17px;
