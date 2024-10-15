@@ -114,3 +114,15 @@ header .tool .social ul{
     font-size: 16px;
     font-weight: bold;
 }
+
+.new .aside .time{
+    color: #a8a8a8;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.new .aside .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
