@@ -10,16 +10,20 @@ body{
 }
 
 .layout-box{
-    max-inline-size: 1280px;
+    max-inline-size: 1160px;
     margin-inline: auto;
 }
 
 header{
+    position: sticky;
+    top: 0;
     display: flex;
+    z-index: 10;
     justify-content: space-between;
     align-items: center;
     block-size: 90px;
     color: white; 
+    background-color:  #1a1d24;
 }
 
 header nav ul{
@@ -73,12 +77,12 @@ header .tool{
 
 
 .search{
-    margin-top: -7px ;
+    margin-bottom: 7px ;
     
 }
 
 header .tool ,.separator{
-    margin-top: -7px ;
+    margin-bottom: 7px ;
 }
 
 header .tool .social ul{
@@ -101,30 +105,30 @@ header .tool .social ul{
 }
 
 .new .img-principal .title{
-    max-inline-size: 400px;
+    max-inline-size: 404px;
     padding-block-start: 33px;
     padding-inline-start: 29px;
     position: absolute;
     /* right: -400px;
     bottom: 0; */
     background: #1a1d24;
-    right: 150px;
+    right: 0px;
     bottom: 0;
 }
 
- .new .img-principal .title h2{
+.new .img-principal .title h2{
     font-size: 37px;
     color: #ffff;
     text-transform: uppercase;
     font-weight: bold;
 }
- .new .img-principal .title p{
+.new .img-principal .title p{
     font-size: 14px;
     color: #a8a8a8;
     margin-block: 24px;
     
 }
- .new .img-principal .title a{
+.new .img-principal .title a{
     font-size: 13px;
     color: #ffff;
     text-transform: uppercase;
@@ -134,8 +138,10 @@ header .tool .social ul{
 }
 
 .main .new .img-principal img{
+    /* height: 609px;
+    width: 865px; */
     height: 610px;
-    width: 100%;
+    width: 850px;
     object-fit: cover;
 }
 
@@ -145,6 +151,11 @@ header .tool .social ul{
     margin-block-end: 32px;
     text-transform: uppercase;
     font-weight: bold;
+}
+.new .aside .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .new .aside .list .item{
@@ -162,10 +173,4 @@ header .tool .social ul{
     color: #a8a8a8;
     font-size: 11px;
     text-transform: uppercase;
-}
-
-.new .aside .list{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
