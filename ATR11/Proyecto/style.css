@@ -9,6 +9,8 @@ body{
     font-family: "Roboto Condensed", sans-serif;
 }
 
+/* header */
+
 .layout-box{
     max-inline-size: 1160px;
     margin-inline: auto;
@@ -95,6 +97,9 @@ header .tool .social ul{
     block-size: 30px;
 }
 
+
+/* aside */
+
 .main .new{
     display: flex;
     gap: 30px;
@@ -174,3 +179,31 @@ header .tool .social ul{
     font-size: 11px;
     text-transform: uppercase;
 }
+
+
+/* CARRUSEL DE IMAGENES */
+
+.container-carrusel{
+    position: relative;
+    background-color: #ffff;
+    display: flex;
+    max-inline-size: 1902px;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container-carrusel .cont-carr-img{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container-carrusel img{
+    width: 217px;
+    height: 298px;
+    object-fit: cover;
+}
+
