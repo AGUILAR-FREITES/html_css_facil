@@ -168,6 +168,10 @@ header .tool .social ul{
     gap: 18px;
 }
 
+.new .aside .list .item img{
+    width: 97px; height: 81px;
+}
+
 .new .aside .item .item-title{
     color: white;
     font-size: 16px;
