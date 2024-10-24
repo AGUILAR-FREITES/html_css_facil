@@ -102,12 +102,11 @@ header .tool .social ul{
 
 .main .new{
     display: flex;
+    position: relative;
+    margin-bottom: 80px;
     gap: 30px;
 }
 
-.new {
-    position: relative;
-}
 
 .new .img-principal .title{
     max-inline-size: 404px;
@@ -187,27 +186,53 @@ header .tool .social ul{
 
 /* CARRUSEL DE IMAGENES */
 
-.container-carrusel{
+.cont-trailer{
     position: relative;
-    background-color: #ffff;
-    display: flex;
     max-inline-size: 1902px;
     margin-inline: auto;
-    align-items: center;
+}
+
+.cont-trailer nav{
+    /* margin-bottom: 50px; */
+    margin-bottom: 130px;
+    margin-left: 360px;
+}
+
+.container-carrusel{
+   position: relative;
+    background-color: #ffff;
+    display: flex;
+    /* align-items: center; */
     justify-content: center;
     gap: 25px;
+    /* padding-bottom: 130px; */
+    
 }
 
 .container-carrusel .cont-carr-img{
+    position: relative;
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
+.container-carrusel .cont-carr-img div{
+    position: absolute;
+    margin-top: 180px;
+}
+
+.cont-trailer .container-carrusel h3{
+    color: black;
+}
+
+.cont-trailer .container-carrusel a{
+    /* color: black; */
+}
 
 
 .container-carrusel img{
     width: 217px;
     height: 298px;
     object-fit: cover;
+    margin-top: -70px;
 }
 
