@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="flex">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+    </div>
+    <style>
+        :root{
+            --background: deeppink;
+            --size: 16px;
+        }
+
+        .flex{
+            display: flex;
+            height: 500px;
+            border: 3px solid;
+            column-gap: 5px;
+        }
+
+        .item{
+            box-sizing: border-box;
+            flex-basis: 500px;
+            color: white;
+            background: var(--background);
+            font-size: 100px;
+            padding: var(--size);
+            text-align: center;
+        }
+    </style>
+    
+</body>
+</html>
