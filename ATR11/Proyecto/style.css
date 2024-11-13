@@ -12,7 +12,7 @@ body{
 /* header */
 
 .layout-box{
-    max-inline-size: 1160px;
+    max-inline-size: 1200px;
     margin-inline: auto;
 }
 
@@ -26,6 +26,15 @@ header{
     block-size: 90px;
     color: white; 
     background-color:  #1a1d24;
+}
+
+header .logo{
+    margin-left: 680px;
+}
+
+
+header nav{
+    max-inline-size: 1200px;
 }
 
 header nav ul{
@@ -75,6 +84,7 @@ header .tool{
     /* justify-content: center; */
     align-items: center;
     gap: 30px;
+    margin-right: 680px;
 }
 
 
@@ -113,10 +123,8 @@ header .tool .social ul{
     padding-block-start: 33px;
     padding-inline-start: 29px;
     position: absolute;
-    /* right: -400px;
-    bottom: 0; */
     background: #1a1d24;
-    right: 0px;
+    right: 0;
     bottom: 0;
 }
 
@@ -188,18 +196,23 @@ header .tool .social ul{
 
 .cont-trailer{
     position: relative;
-    max-inline-size: 1902px;
+    max-inline-size: 2543px;
     margin-inline: auto;
 }
 
 .cont-trailer nav{
     /* margin-bottom: 50px; */
     margin-bottom: 130px;
-    margin-left: 360px;
+    margin-left: 680px;
+}
+
+.cont-trailer nav a, span{
+    color: #737373;
+    /* font-family: 'roboto'; */
 }
 
 .container-carrusel{
-   position: relative;
+    position: relative;
     background-color: #ffff;
     display: flex;
     /* align-items: center; */
@@ -234,5 +247,30 @@ header .tool .social ul{
     height: 298px;
     object-fit: cover;
     margin-top: -70px;
+}
+
+/* Samurai */
+
+.samurai{
+    max-inline-size: auto;
+    margin-inline: auto;
+    background-color: white;
+}
+
+.samurai img{
+    width:2543px;
+    height: 650px;
+    margin-top: 180px;
+    
+}
+
+.text-samurai{
+    max-inline-size: 404px;
+    padding-block-start: 33px;
+    padding-inline-start: 29px;
+    position: absolute;
+    right: 680px;
+    bottom: -450px;
+    
 }
 
