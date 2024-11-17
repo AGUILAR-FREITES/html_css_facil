@@ -18,7 +18,6 @@ body{
 
 header{
     position: sticky;
-    
     top: 0;
     display: flex;
     z-index: 10;
@@ -30,7 +29,7 @@ header{
 }
 
 header .logo{
-    margin-left: 680px;
+    margin-left: 250px;
 }
 
 
@@ -41,6 +40,7 @@ header nav{
 header nav ul{
     display: flex;
     align-items: center;
+    margin-left: 170px;
 }
 
 header .menu ul .item{
@@ -86,16 +86,26 @@ header .tool{
     align-items: center;
     gap: 30px;
     margin-right: 680px;
+    margin-left: 10px;
 }
 
 
 .search{
     margin-bottom: 7px ;
+    margin-left: 100px;
     
 }
 
-header .tool ,.separator{
+header .tool .separator{
     margin-bottom: 7px ;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+    
+}
+
+header .tool .social{
+    margin-left: -160px;
 }
 
 header .tool .social ul{
