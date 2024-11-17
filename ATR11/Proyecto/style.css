@@ -214,7 +214,12 @@ header .tool .social ul{
 .cont-trailer nav{
     /* margin-bottom: 50px; */
     margin-bottom: 130px;
-    margin-left: 680px;
+    margin-left: 260px;
+}
+
+.cont-trailer nav .carrusel{
+    text-decoration: none;
+    color: #737373;
 }
 
 .cont-trailer nav > a > span{
@@ -258,6 +263,16 @@ header .tool .social ul{
     height: 298px;
     object-fit: cover;
     margin-top: -70px;
+    margin-bottom: 30px;
+}
+
+.cont-trailer  .Slider{
+    display: flex;
+    justify-content: center;
+    background: white;
+    gap: 8px;
+    font-size: 9px;
+
 }
 
 /* Samurai */
@@ -345,10 +360,10 @@ header .tool .social ul{
 
 .samurai .text-samurai .samurai-icon .fa-regular{
     margin-left: 40px;
-    
+    color: #1a1d24;
 }
 
-.samurai .text-samurai .samurai-watch{
+.samurai .text-samurai .samurai-watch {
     text-decoration: none;
     color: #1a1d24;
     margin-left: 5px;
