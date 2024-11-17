@@ -18,6 +18,7 @@ body{
 
 header{
     position: sticky;
+    
     top: 0;
     display: flex;
     z-index: 10;
@@ -196,8 +197,9 @@ header .tool .social ul{
 
 .cont-trailer{
     position: relative;
-    max-inline-size: 2543px;
+    width:1710px;
     margin-inline: auto;
+    /* color: white; */
 }
 
 .cont-trailer nav{
@@ -274,36 +276,34 @@ header .tool .social ul{
 .samurai{
     /* max-inline-size: auto;
     margin-inline: auto; */
+    width:1710px;
     background-color: white;
 }
 
 .samurai img{
-    width:2543px;
-    height: 650px;
+    width:1710px;
+    height: 508px;
     margin-top: 180px;
 }
 
-.text-samurai{
+.samurai .text-samurai{
     max-inline-size: 600px;
     height: auto;
     /* padding-block-start: 33px;
     padding-inline-start: 29px; */
     padding: 0 15px;
     position: absolute;
-    right: 680px;
-    bottom: -450px;
+    right: 250px;
+    bottom: -800px;
     
 }
 
 .text-samurai .linea-samurai::before{
     position: absolute;
-    content: "";
-    display: block;
+    content: " ";
     height: 1px;
     width: 48px;
-    background: #ddd;
-    text-align: left;
-    color: #e0041d;
+    background: #e0011a;
 
 }
 
