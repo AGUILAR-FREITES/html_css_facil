@@ -206,7 +206,7 @@ header .tool .social ul{
     margin-left: 680px;
 }
 
-.main .cont-trailer nav, .carrusel,  span{
+.cont-trailer nav > a > span{
     color: #737373;
     /* font-family: 'roboto'; */
 }
@@ -215,9 +215,10 @@ header .tool .social ul{
     position: relative;
     background-color: #ffff;
     display: flex;
+    /* align-items: center; */
     justify-content: center;
     gap: 25px;
-    padding-bottom: 30px;
+    /* padding-bottom: 130px; */
     
 }
 
@@ -229,45 +230,24 @@ header .tool .social ul{
 
 .container-carrusel .cont-carr-img div{
     position: absolute;
-    margin-top: 170px;
+    margin-top: 180px;
 }
 
-.container-carrusel .cont-carr-img div a{
-    text-decoration: none;
+.cont-trailer .container-carrusel h3{
+    color: black;
 }
+
+/* .cont-trailer .container-carrusel a{
+    color: black; 
+}  */
+
 
 .container-carrusel img{
     width: 217px;
     height: 298px;
     object-fit: cover;
     margin-top: -70px;
-    /* opacity: 1; */
 }
-.container-carrusel .cont-carr-img .sombraImg{
-    position: absolute;
-    background: linear-gradient(45deg, black,20%, transparent);
-    height: 300px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    margin-top: -70px;
-
-} 
-
-.cont-trailer .container-carrusel a:nth-child(n+2){
-    color: #BDBDBD;
-    font-weight: bold;
-} 
-
-.cont-trailer .Slider{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    font-size: 10px;
-    background-color: white;
-}
-
-
 
 /* Samurai */
 
@@ -281,6 +261,7 @@ header .tool .social ul{
     width:2543px;
     height: 650px;
     margin-top: 180px;
+    
 }
 
 .text-samurai{
@@ -293,18 +274,6 @@ header .tool .social ul{
     right: 680px;
     bottom: -450px;
     
-}
-
-.text-samurai .linea-samurai::before{
-    position: absolute;
-    content: "";
-    display: block;
-    height: 1px;
-    width: 48px;
-    background: #ddd;
-    text-align: left;
-    color: #e0041d;
-
 }
 
 .samurai .text-samurai h3{
@@ -322,16 +291,14 @@ header .tool .social ul{
 }
 
 .samurai span{
-    margin-right: 15px;
+    margin: 15px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
     
 }
 
-.samurai .samurai-hbo-sesion span{
-    color: #1a1d24;
-}
+
 
 
 .samurai .text-samurai p{
@@ -342,7 +309,6 @@ header .tool .social ul{
 
 .samurai .text-samurai .samurai-icon{
     display: flex;
-    
 }
 
 .samurai .text-samurai .samurai-icon .fa-solid{
@@ -363,11 +329,11 @@ header .tool .social ul{
     
 }
 
-.samurai .text-samurai a,.samurai-watch{
+.samurai .text-samurai .samurai-watch{
     text-decoration: none;
     color: #1a1d24;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
 }
