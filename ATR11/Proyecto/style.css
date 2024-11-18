@@ -29,7 +29,7 @@ header{
 }
 
 header .logo{
-    margin-left: 250px;
+    margin-left: 360px;
 }
 
 
@@ -67,6 +67,7 @@ li{
 
 a{
     color: white;  
+    text-decoration: none;
 }
 
 
@@ -206,24 +207,27 @@ header .tool .social ul{
 
 .cont-trailer{
     position: relative;
-    width:1710px;
+    width:1910px;
     margin-inline: auto;
     /* color: white; */
 }
 
 .cont-trailer nav{
     /* margin-bottom: 50px; */
-    margin-bottom: 130px;
-    margin-left: 260px;
+    margin-bottom: 110px;
+    margin-left: 360px;
 }
 
 .cont-trailer nav .carrusel{
     text-decoration: none;
     color: #737373;
+    font-size: 13px;
+    font-weight: bold;
 }
 
-.cont-trailer nav > a > span{
+.cont-trailer nav span{
     color: #737373;
+    margin: 10px;
     /* font-family: 'roboto'; */
 }
 
@@ -280,27 +284,32 @@ header .tool .social ul{
 .samurai{
     /* max-inline-size: auto;
     margin-inline: auto; */
-    width:1710px;
+    width:1910px;
     background-color: white;
+    
 }
 
 .samurai img{
-    width:1710px;
-    height: 508px;
+    width:1910px;
+    height: 500px;
     margin-top: 180px;
     
 }
 
 .samurai .text-samurai{
+    position: absolute;
     max-inline-size: 600px;
-    height: auto;
+    /* height: auto; */
     /* padding-block-start: 33px;
     padding-inline-start: 29px; */
-    padding: 0 15px;
-    position: absolute;
-    right: 250px;
-    bottom: -800px;
+    padding: 0 50px;
+    right: 350px;
+    bottom: -780px;
     
+}
+
+.text-samurai .linea-samurai{
+    margin-left: 3px;
 }
 
 .text-samurai .linea-samurai::before{
@@ -312,10 +321,12 @@ header .tool .social ul{
 
 }
 
+
 .samurai .text-samurai h3{
     color: #737373;
     text-transform: uppercase;
     font-size: 13px;
+    margin-top: 10px;
 }
 
 .samurai .text-samurai h2{
