@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
     <style>
-        .container{
+        /* .container{
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: 100px 300px;
+            grid-template-rows: 100px 300px ;
             border: 1px solid;
+        } */
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            background: gray;
+            gap: 10px;
+        }
+
+        .item{
+            background: blue;
+            color: #fff;
+            font-size: 2rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="item1">Item1</div>
         <div class="item2">Item2</div>
         <div class="item3">Item3</div>
         <div class="item4">Item4</div>
         <div class="item5">Item5</div>
+    </div> -->
+
+    <div class="container">
+        <div1 class="item">Item 1</div1>
+        <div2 class="item">Item 2</div2>
+        <div3 class="item">Item 3</div3>
+        <div4 class="item">Item 4</div4>
+        <div5 class="item">Item 5</div5>
+        <div6 class="item">Item 6</div6>
+        <div7 class="item">Item 7</div7>
+        <div8 class="item">Item 8</div8>
+        <div9 class="item">Item 9</div9>
+        <div10 class="item">Item 10</div10>
     </div>
 </body>
 </html>
