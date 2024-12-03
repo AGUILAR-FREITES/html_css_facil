@@ -12,7 +12,7 @@
             border: 1px solid;
         } */
 
-        .container{
+        /* .container{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             background: gray;
@@ -23,19 +23,50 @@
             background: blue;
             color: #fff;
             font-size: 2rem;
+        } */
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 250px);
+            grid-template-rows: repeat(3, 150px);
+            background: gray;
+            height: 98vh;
+            gap: 10px;
+
+            
+            justify-content: center;
+            align-content: center;
+
+            /* justify-items: center; */
+            /* align-items: center; */
+        }
+
+        .item{
+            padding: 10px;
+            background: black;
+            color: white;
+            
+        }
+
+        .item5{
+            /* order: -1; */
+            align-self: end;
+            justify-self: end;
+            
         }
     </style>
 </head>
 <body>
-    <!-- <div class="container">
-        <div class="item1">Item1</div>
-        <div class="item2">Item2</div>
-        <div class="item3">Item3</div>
-        <div class="item4">Item4</div>
-        <div class="item5">Item5</div>
-    </div> -->
-
     <div class="container">
+        <div class="item item1">Item1</div>
+        <div class="item item2">Item2</div>
+        <div class="item item3">Item3</div>
+        <div class="item item4">Item4</div>
+        <div class="item item5">Item5</div>
+        <div class="item item6">Item6</div>
+    </div>
+
+    <!-- <div class="container">
         <div1 class="item">Item 1</div1>
         <div2 class="item">Item 2</div2>
         <div3 class="item">Item 3</div3>
@@ -46,6 +77,6 @@
         <div8 class="item">Item 8</div8>
         <div9 class="item">Item 9</div9>
         <div10 class="item">Item 10</div10>
-    </div>
+    </div> -->
 </body>
 </html>
