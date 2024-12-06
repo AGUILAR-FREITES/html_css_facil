@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celdas Irregulares</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+    </div>
+
+    <style>
+        .container{
+            display: inline-grid;
+            border: 5px solid darkred;
+            grid-template-columns: 500px 250px 250px;
+            grid-template-rows: repeat(2, 200px);
+        }
+
+        .item{
+            background: gray;
+            color: white;
+            padding: 1em;
+            border: 5px solid black;
+            min-width: 200px;
+        }
+
+        .item1{
+            background: red;
+            grid-column-start: 1; /*esto es para llenar la posición de las lineas*/
+            grid-column-end: 4; /*esto es para llenar la posición de las lineas*/
+        }
+    </style>
+</body>
+</html>
