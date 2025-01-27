@@ -382,3 +382,30 @@ header .tool .social ul{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* PELI-RECIENTE */
+
+.peli-recientes{
+    display: flex;
+    position: relative;
+    margin-top: -4px;
+
+}
+
+.peli-recientes .recient-cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.peli-recientes .recient-cont img{
+    width: 435px;
+    height: 596px;
+}
+
+.peli-recientes .recient-cont .peli-text{
+    position: absolute;
+    margin-top: 470px;
+    
+}
