@@ -388,6 +388,7 @@ header .tool .social ul{
 .peli-recientes{
     display: flex;
     position: relative;
+    
     margin-top: -4px;
 
 }
@@ -395,17 +396,52 @@ header .tool .social ul{
 .peli-recientes .recient-cont{
     position: relative;
     display: flex;
-    justify-content: center;
+
 
 }
 
 .peli-recientes .recient-cont img{
-    width: 435px;
+    width: 477px;
     height: 596px;
+    object-fit: cover;
 }
 
 .peli-recientes .recient-cont .peli-text{
     position: absolute;
-    margin-top: 470px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 18px 0px;
+    margin-top: 370px;
+    color: white;
+    max-inline-size: 700px;
+    margin-left: 30px;
     
+}
+
+.peli-recientes .recient-cont .peli-text h2  {
+    margin-bottom: 20px;
+    font-size: 27px;
+    
+    
+}
+
+/* .peli-recientes .recient-cont .peli-text .tipo-peli{
+    margin-bottom:30px;
+} */
+
+.peli-recientes .recient-cont .peli-text .trailer-info{
+    margin-top: 50px;
+}
+
+.peli-recientes .recient-cont .peli-text .trailer-info .fa-circle-arrow-right{
+    margin-left: 40px;
+}
+
+.peli-recientes .recient-cont .peli-text .trailer-info .more{
+    margin-left: 5px;
+}
+
+.peli-recientes .recient-cont .peli-text .clasif{
+    color: #b7b0b0;
+    font-size: 13px;
 }
