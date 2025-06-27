@@ -539,6 +539,7 @@ header .tool .social ul{
         height: 105px;
         justify-items: center;
         border-radius: 50%;
+        margin-bottom: 40px;
     }
 
     .container-carrusel-red .caja-red .caja-red-text{
@@ -552,7 +553,7 @@ header .tool .social ul{
         position: absolute;
         content: "”";
         font-family: "fontello";
-        font-size: 50px;
+        font-size: 36px;
         height: 34px;
         width: 34px;
         background: black;
@@ -561,7 +562,41 @@ header .tool .social ul{
         margin-left: 168px;
         bottom: -1710px;
         z-index: 1;
-        /* text-align: center; */
+        font-weight: bold;
+        line-height: 50px;
+        }
+
+        .caja-red .caja-red-text p{
+            width: 370px;
+            height: 60px;
+            font-family: "lora";
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .caja-red .caja-red-text h4{
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .caja-red .caja-red-text .text-b{
+            font-size: 12px !important;
+            font-family: sans-serif;
+            font-weight: normal;
         }
 
     /* FIN CARRUSEL ROJO */
+
+        .blog-layout{
+            width: 100%;
+            height: 537px;
+            background: white;
+        }
+    /* INICIO BLOG GRID */
+
+
+
+    /* FIN BLOG GRID */
