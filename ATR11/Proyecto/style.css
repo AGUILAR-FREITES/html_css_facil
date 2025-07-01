@@ -310,7 +310,7 @@ header .tool .social ul{
     padding-inline-start: 29px; */
     padding: 0 50px;
     right: 810px;
-    bottom: -380px;
+    margin-top: -499px;
     
 }
 
@@ -555,8 +555,8 @@ header .tool .social ul{
         background: black;
         border-radius: 50%;
         color: white;
-        margin-left: 168px;
-        bottom: -1700px;
+        margin-left: 167px;
+        margin-top:  90px;
         z-index: 1;
         font-weight: bold;
         line-height: 50px;
@@ -593,6 +593,31 @@ header .tool .social ul{
             padding-block: 120px;
         }
 
+
+        .blog .layout-box .latest-before::before{
+            position: absolute;
+            content: " ";
+            height: 1px;
+            width: 48px;
+            background: #e0011a;
+            margin-top: -30px;
+            
+        }
+
+        .blog .title-section{
+            font-size: 37px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .blog .description{
+            font-family: serif;
+            font-size: 18px;
+            color: #737373;
+            margin-bottom: 42px;
+        }
+
         .grid{
             display: grid;
             grid-template-columns: 1fr repeat(2, 0.5fr);
@@ -607,7 +632,7 @@ header .tool .social ul{
             linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%,
             rgba(0, 0, 0, 0.5) 100%),
             url(img/papa-hija.jpg);
-            background-size: 700px 559px;
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             
@@ -631,7 +656,7 @@ header .tool .social ul{
             linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%,
             rgba(0, 0, 0, 0.5) 100%),
             url(img/img2.jpg);
-            background-size: 370px 268px;
+            background-size: cover;
             background-position: center;
         }
 
@@ -656,16 +681,18 @@ header .tool .social ul{
         } */
 
         .article-blog{
-            display: flex;
-            justify-items: start;
-            align-items: end;
-            /* text-align: center; */
+            /* display: flex; */
+            display: grid;
+            place-items: end;
+            /* justify-items: start;
+            align-items: end; */
+            /* background-position: center;
+            background-size: cover; */
         }
 
-        /* .article-blog .data{
-            justify-items: center;
-            align-items: end;
-        } */
+        .article-blog .data{
+            padding: 25px 30px;
+        }
 
         .article-blog .data .subtitle{
             font-size: 11px;
@@ -679,6 +706,7 @@ header .tool .social ul{
             font-weight: bold;
             text-transform: uppercase;
             color: #ffffff;
+            margin-block: 1em 0.7em;
         }
 
         
