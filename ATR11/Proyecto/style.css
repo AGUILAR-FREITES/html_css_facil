@@ -273,7 +273,10 @@ header .tool .social ul{
     object-fit: cover;
     margin-top: -70px;
     margin-bottom: 30px;
+    filter: brightness( 60%);
+    
 }
+
 
 .cont-trailer  .slider{
     display: flex;
@@ -549,7 +552,7 @@ header .tool .social ul{
         position: absolute;
         content: "”";
         font-family: "fontello";
-        font-size: 36px;
+        font-size: 40px;
         height: 34px;
         width: 34px;
         background: black;
@@ -719,3 +722,9 @@ header .tool .social ul{
         }
 
     /* FIN BLOG GRID */
+
+    .footer{
+        width: 100%;
+        height: 428px;
+        color:  white;
+    }
