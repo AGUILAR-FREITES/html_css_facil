@@ -140,6 +140,15 @@ header .tool .social ul{
     right: 0;
     bottom: 0;
 }
+.new .img-principal .title:hover .text-read{
+    color: #e0011a;
+}
+
+.img-principal .title .fa-solid{
+    color: #e0011a;
+    margin-left: 20px;
+    font-size: 12px;
+}
 
 .new .img-principal .title h2{
     font-size: 37px;
@@ -278,7 +287,7 @@ header .tool .social ul{
 }
 
 
-.cont-trailer  .slider{
+/* .cont-trailer  .slider{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -286,6 +295,35 @@ header .tool .social ul{
     gap: 8px;
     font-size: 9px;
 
+} */
+
+.cont-trailer  .slider-nav{
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.cont-trailer  .slider-nav .slider-nav-item{
+    margin-block-start: 50px;
+}
+
+
+.cont-trailer  .slider-navlink{
+    display: inline-block;
+    block-size: 8px; /*width*/
+    inline-size: 8px; /*height*/
+    border-radius: 50%;
+    background-color: #B6B6B5;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.cont-trailer .slider-nav-item:hover .slider-navlink  {
+    background-color: #e0011a;
+    
 }
 
 /* Samurai */
@@ -392,6 +430,16 @@ header .tool .social ul{
     text-transform: uppercase;
 }
 
+.samurai .text-samurai:hover .button-tr{
+    color: #e0011a;
+}
+
+.samurai .text-samurai:hover .samurai-watch{
+    color: #e0011a;
+}
+
+
+
 /* PELI-RECIENTE */
 
 .peli-recientes{
@@ -406,7 +454,7 @@ header .tool .social ul{
     position: relative;
     width: 100%;
     display: flex;
-
+    
 
 }
 
@@ -419,17 +467,19 @@ header .tool .social ul{
 
 .peli-recientes .recient-cont .peli-text{
     position: absolute;
-    display: flex;
+    /* display: flex; */
     width: 440px;
     height: 225px;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 16px 18px 0px;
     margin-top: 646px;
     color: white;
     /* max-inline-size: 700px; */
     margin-left: 30px;
     /* border: 2px solid white; */
-    
+    z-index: 1;
+    transition: all 0,3s;
+    /* bottom: 50px; */
 }
 
 .peli-recientes .recient-cont .peli-text h2  {
@@ -441,28 +491,33 @@ header .tool .social ul{
     
 }
 
-/* .peli-recientes .recient-cont .peli-text .tipo-peli{
-    margin-bottom:30px;
-} */
 
 
 
 .peli-recientes .recient-cont .peli-text .trailer-info{
+    position: absolute;
+    display: flex;
+    inline-size: 100%;
     margin-top: 50px;
-    width: 100%;
-    height: 10px;
-    display: none;
+    /* width: 100%;
+    height: 10px; */
     align-items: center;
-    color: #2E3036;
-    transition:height.10s;
-    /*border: 2px solid white;*/
+    /* color: #2E3036; */
+    transition:all 0.3s;
+    bottom: -36px;
+    opacity: 0;
+
+}
+
+.peli-recientes .recient-cont:hover .peli-text {
+    cursor: pointer;
+    bottom: 85px;
     
 }
 
 .peli-recientes .recient-cont .peli-text:hover .trailer-info{
-    display: block;
-    height: 50px;
-    cursor: pointer;
+    bottom: 0;
+    opacity: 1;
 }
 
 .peli-recientes .recient-cont .peli-text .trailer-info i{
@@ -470,6 +525,7 @@ header .tool .social ul{
     background: #F8B350;
     font-size: 30px;
     border-radius: 100%;
+    /* bottom: 0; */
 
 }
 .peli-recientes .recient-cont .peli-text .trailer-info .fa-circle-play{
@@ -482,9 +538,6 @@ header .tool .social ul{
     margin-left: 40px;
 }
 
-/* .peli-recientes .recient-cont .peli-text .trailer-info .more{
-
-} */
 
 .peli-recientes .recient-cont .peli-text .trailer-info .more{
     margin-left: 10px;
@@ -729,6 +782,31 @@ header .tool .social ul{
         color:  white;
     }
 
+    .btn-lateral{
+        position: fixed;
+        right: 14px;
+        top: 55%;
+    }
+
+    .btn-lat{
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+        /* border: 2px solid green; */
+        background-color: red;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-lat i{
+        font-size: 30px;
+        color: white;
+        
+    }
+
+
     .back-top{
         position: fixed;
         width: 50px;
@@ -740,5 +818,8 @@ header .tool .social ul{
         font-size: 23px;
         line-height: 50px;
         background-color: #1a1d24;
+
         
     }
+
+
