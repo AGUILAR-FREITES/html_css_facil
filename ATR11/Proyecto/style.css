@@ -30,7 +30,7 @@ header{
 }
 
 header .logo{
-    margin-left: 676px;
+    margin-left: 633px;
 }
 
 
@@ -87,7 +87,7 @@ header .tool{
     /* justify-content: center; */
     align-items: center;
     gap: 30px;
-    margin-right: 680px;
+    margin-right: 642px;
     margin-left: 10px;
 }
 
@@ -132,7 +132,7 @@ header .tool .social ul{
 
 
 .new .img-principal .title{
-    max-inline-size: 404px;
+    max-inline-size: 519px;
     padding-block-start: 33px;
     padding-inline-start: 29px;
     position: absolute;
@@ -173,8 +173,8 @@ header .tool .social ul{
 .main .new .img-principal img{
     /* height: 609px;
     width: 865px; */
-    height: 610px;
-    width: 850px;
+    height: 609px;
+    width: 865px;
     object-fit: cover;
 }
 
@@ -243,22 +243,25 @@ header .tool .social ul{
 }
 
 .container-carrusel{
-    position: relative;
-    /* width: 2545px; */
+    /* position: relative; */
     width: 100%;
     background-color: #ffff;
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    
-    /* padding-bottom: 130px; */
-    
+        
+}
+
+.cont-carrusel{
+    display: flex;
+    width: 1168;
+    height: 298px;
 }
 
 .container-carrusel .cont-carr-img{
     position: relative;
     display: flex;
-    margin-right: 38px;
+    margin-right: 20px;
     justify-content: center;
 }
 
@@ -277,8 +280,8 @@ header .tool .social ul{
 
 
 .container-carrusel img{
-    width: 217px;
-    height: 298px;
+    width: 238px;
+    height: 330px;
     object-fit: cover;
     margin-top: -70px;
     margin-bottom: 30px;
@@ -306,7 +309,7 @@ header .tool .social ul{
 }
 
 .cont-trailer  .slider-nav .slider-nav-item{
-    margin-block-start: 50px;
+    /* margin-block-start: 50px; */
 }
 
 
@@ -329,18 +332,23 @@ header .tool .social ul{
 /* Samurai */
 
 .samurai{
-    /* max-inline-size: auto;
-    margin-inline: auto; */
+    display: flex;
+    max-inline-size: auto;
+    margin-inline: auto;
     width:100%;
     background-color: white;
-    
+}
+
+.samurai .samurai-center{
+margin-left: 290px;
 }
 
 .samurai img{
-    width:1910px;
-    height: 500px;
+    width:2500px;
+    height: 700px;
     margin-top: 180px;
-    margin-left: 213px;
+    margin-left: -293px;
+    object-fit: cover;
 }
 
 .samurai .text-samurai{
@@ -350,8 +358,8 @@ header .tool .social ul{
     /* padding-block-start: 33px;
     padding-inline-start: 29px; */
     padding: 0 50px;
-    right: 810px;
-    margin-top: -499px;
+    right: 750px;
+    margin-top: -650px;
     
 }
 
@@ -446,7 +454,7 @@ header .tool .social ul{
     display: flex;
     position: relative;
     
-    margin-top: -4px;
+    margin-top: -154px;
 
 }
 
