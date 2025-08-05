@@ -9,12 +9,14 @@ body{
     font-family: "Roboto Condensed", sans-serif;
 }
 
-/* header */
-
 .layout-box{
     max-inline-size: 1280px;
     margin-inline: auto;
 }
+
+
+
+/* header */
 
 header{
     position: sticky;
@@ -197,7 +199,8 @@ header .tool .social ul{
 }
 
 .new .aside .list .item img{
-    width: 97px; height: 81px;
+    width: 97px; 
+    height: 81px;
 }
 
 .new .aside .item .item-title{
@@ -226,7 +229,7 @@ header .tool .social ul{
 .cont-trailer nav{
     /* margin-bottom: 50px; */
     margin-bottom: 110px;
-    margin-left: 635px;
+    margin-left: 630px;
 }
 
 .cont-trailer nav .carrusel{
@@ -254,8 +257,9 @@ header .tool .social ul{
 
 .cont-carrusel{
     display: flex;
-    width: 1168;
+    width: 100%;
     height: 298px;
+    justify-content: center;
 }
 
 .container-carrusel .cont-carr-img{
@@ -344,7 +348,7 @@ margin-left: 290px;
 }
 
 .samurai img{
-    width:2500px;
+    /* width:1494px; */
     height: 700px;
     margin-top: 180px;
     margin-left: -293px;
@@ -453,22 +457,19 @@ margin-left: 290px;
 .peli-recientes{
     display: flex;
     position: relative;
-    
     margin-top: -154px;
-
 }
 
 .peli-recientes .recient-cont{
-    position: relative;
-    width: 100%;
     display: flex;
-    
 
 }
 
 .peli-recientes .recient-cont img{
     width: 636px;
-    height: 880px;
+    /* width: 852px; */
+    height: 870px;
+    /* height: 937px; */
     object-fit: cover;
     filter: brightness(70%);/*Para oscurecer cualquier imagen*/
 }
@@ -494,9 +495,6 @@ margin-left: 290px;
     margin-bottom: 20px;
     font-size: 27px;
     text-transform: uppercase;
-    
-    
-    
 }
 
 
@@ -533,7 +531,7 @@ margin-left: 290px;
     background: #F8B350;
     font-size: 30px;
     border-radius: 100%;
-    /* bottom: 0; */
+    bottom: 0;
 
 }
 .peli-recientes .recient-cont .peli-text .trailer-info .fa-circle-play{
@@ -784,12 +782,6 @@ margin-left: 290px;
 
     /* FIN BLOG GRID */
 
-    .footer{
-        width: 100%;
-        height: 428px;
-        color:  white;
-    }
-
     .btn-lateral{
         position: fixed;
         right: 14px;
@@ -827,7 +819,87 @@ margin-left: 290px;
         line-height: 50px;
         background-color: #1a1d24;
 
-        
     }
 
+
+    /* INICIO PIE DE PAGINA */
+
+    .footer{
+        display: flex;
+        width: 100%;
+        height: 490px;
+        justify-content: center;
+        color:  white;
+        border: 2px solid red;
+    }
+
+    .footer  h2{
+        text-transform: uppercase;
+    }
+
+    .footer-box{
+        margin-left: 141px;
+        margin-top: 129px;
+    }
+
+    .copyright{
+        width: 370px;
+        height: 84px;
+    }
+
+    .copyright img{
+        margin-bottom: 20px;
+    }
+
+    .footer .nav-footer a, span{
+        color: #a8a8a8;
+        font-size: 14px;
+        font-family: 'lora' serif;
+    }
+
+     .footer .nav-footer li{
+        margin-block: 22px;
+     }
+
+    .footer-box .latest-after1:after{
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 28px;
+    background: #e0011a;
+    margin-top: -12px;
+    margin-left: 90px;
+
+}
+    .footer-box .latest-after2:after{
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 28px;
+    background: #e0011a;
+    margin-top: -12px;
+    margin-left: 199px;
+}
+    .footer-box .latest-after3:after{
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 28px;
+    background: #e0011a;
+    margin-top: -12px;
+    margin-left: 145px;
+}
+
+.footer .new-social h2{
+    margin-bottom: 10px;
+}
+
+.footer .new-social ul{
+    display: flex;
+    margin-block: 22px;
+    gap: 15px;
+}
+
+    /* FIN PIE DE PAGINA */
+    
 
