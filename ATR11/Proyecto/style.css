@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+   
+
+
 body{
     background-color: #1a1d24;
     font-family: "Roboto Condensed", sans-serif;
@@ -13,10 +16,6 @@ body{
     max-inline-size: 1280px;
     margin-inline: auto;
 }
-
-
-
-
 
 
 
@@ -36,13 +35,18 @@ header{
     margin-bottom: 30px;
 }
 
-header .logo{
+header .cont-header{
+    display: flex;
     margin-left: 633px;
+    width: 100%;
+    max-inline-size: 1280px;
+    margin-inline: auto;
 }
 
 
+
 header nav{
-    max-inline-size: 1200px;
+    /* max-inline-size: 1200px; */
 }
 
 header nav ul{
@@ -233,7 +237,7 @@ header .tool .social ul{
 
 .cont-trailer{
     position: relative;
-    /* width:2545px; */
+    width:2545px;
     width: 100%;
     margin-inline: auto;
     /* color: white; */
@@ -242,7 +246,9 @@ header .tool .social ul{
 .cont-trailer nav{
     /* margin-bottom: 50px; */
     margin-bottom: 110px;
-    margin-left: 630px;
+    /* margin-left: 630px; */
+    max-inline-size: 1292px;
+    margin-inline: auto;
 }
 
 .cont-trailer nav .carrusel{
@@ -400,25 +406,30 @@ header .tool .social ul{
 
 .samurai .samurai-center{
 margin-left: 290px;
+
+    max-inline-size: 1280px;
+    margin-inline: auto;
 }
 
 .samurai img{
-    /* width:1494px; */
+    width:100%;
     height: 700px;
     margin-top: 180px;
-    margin-left: -293px;
+    margin-left: -93px;
     object-fit: cover;
 }
 
 .samurai .text-samurai{
     position: absolute;
     max-inline-size: 600px;
+    margin-inline: auto;
     /* height: auto; */
     /* padding-block-start: 33px;
     padding-inline-start: 29px; */
     padding: 0 50px;
-    right: 750px;
+    right: 850px;
     margin-top: -650px;
+    
     
 }
 
@@ -510,9 +521,12 @@ margin-left: 290px;
 /* PELI-RECIENTE */
 
 .peli-recientes{
+    width: 100%;
     display: flex;
     position: relative;
     margin-top: -154px;
+    /* max-inline-size: 1180px; */
+    margin-inline: auto;
 }
 
 .peli-recientes .recient-cont{
@@ -747,7 +761,7 @@ margin-left: 290px;
             --font-size:37px;
             grid-row:1 / 3 ;
             background-image: 
-            linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%,
+            linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%,
             rgba(0, 0, 0, 0.5) 100%),
             url(img/papa-hija.jpg);
             background-size: cover;
@@ -917,7 +931,7 @@ margin-left: 290px;
     .footer{
         display: flex;
         width: 100%;
-        height: 490px;
+        height: 426px;
         justify-content: center;
         color:  white;
     }
@@ -934,6 +948,7 @@ margin-left: 290px;
     .copyright{
         width: 370px;
         height: 84px;
+        margin-right: -130px;
     }
 
     .copyright img{
@@ -1005,8 +1020,10 @@ margin-left: 290px;
     
 }
 
-.footer .new-social ul li a{
-    display: flex;
+.footer .new-social ul li:hover a{
+    /* display: flex; */
+    filter: brightness(60%);
+    transition: all 1s;
 }
 
 .footer .new-social ul li a i{
@@ -1038,3 +1055,8 @@ margin-left: 290px;
     /* FIN PIE DE PAGINA */
     
 
+/* MEDIA QUERY */
+
+@media (max-width:2539px){
+
+}
