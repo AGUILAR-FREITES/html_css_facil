@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    /* color: white; */
+    
+        .top-header{
+            display: flex;
+            width: 100%;
+            height: 65px;
+            /* align-items: center; */
+            justify-content: space-around;
+            align-items: center;
+            /* border: 1px solid red; */
+        
+            .top-nav{
+                width: 32px;
+                height: 32px;
+                margin-right: 340px;
+                }
+
+            .top-search{
+                width: 243px;
+                height: 35px;
+                margin-right: 1000px;
+                margin-left: -400px;
+                border: 1px solid ;
+                border-radius: 5px;
+                /* background: #504f4f33; */
+                background-color: #ffffff33;
+
+                
+
+                form{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 10px;
+                    color: white;
+                    span{
+                        font-size: 23px;
+                        
+                    }
+
+                    input[type="search"]{
+                        width: 229px;
+                        height: 30px;
+                        border: none;
+                        margin-left: 5px;
+                        padding: 10px;
+                        background-color: transparent;
+                        outline: none;
+                        
+                        &::placeholder{
+                            color: #9c9595;
+                            font-size: 17px;
+                            
+                        }
+                    }
+
+                    input[type="search"]:focus{
+                        color: white;
+                        font-size: 16px
+                    }
+                    
+                }
+                
+            }    
+
+            .top-menu {
+                /* border: 1px solid red;     */
+                
+                ul{
+                    width: 500px;
+                    display: flex;
+                    justify-content: space-around;
+                    /* border: 1px solid red; */
+                    
+                    
+                    li{
+                        /* background-color: brown; */
+                        list-style: none;
+                        font-size: 16px;
+                        
+
+                        a{
+                            display: block;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            letter-spacing: 1px;
+                            color: white;
+                            
+                        }
+                    }
+                }
+            }
+
+            .top-usuario{
+                /* border: 1px solid red; */
+                width: 500px;
+                
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    list-style: none;
+                    
+                    .cont-us1{
+                        width: 82px;
+                        height: 36px;
+                        background-color: #ED1C24;
+                        font-size: 16px;
+                        text-align: center;
+                        line-height: 36px;
+                        border-radius: 4px;
+
+                        .usuario1{
+                            text-decoration: none;
+                            letter-spacing: 1px;
+                            font-weight: 900;
+                            color: white;
+
+                            span{
+                            text-transform: uppercase;
+                            }
+                            
+                        }
+                    }
+
+                    .cont-us2{
+                        width: 119px;
+                        height: 36px;
+                        background-color: #9F42C6;
+                        text-align: center;
+                        line-height: 36px;
+                        border-radius: 4px;
+                        .usuario2{
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                letter-spacing: 1px;
+                                font-weight: 900;
+                                color: white;
+                            }
+                    }
+
+                .cont-us3{
+                    text-align: center;
+                    line-height: 36px;
+                        .usuario3{
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                font-weight: 900;
+                                letter-spacing: 1px;
+                                color: white;
+                            }
+                    }
+                }
+            }
+            
+        
+    }
+}
+
+
