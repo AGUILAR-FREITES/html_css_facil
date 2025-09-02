@@ -43,9 +43,9 @@ header .cont-header{
 
 
 
-header nav{
-    /* max-inline-size: 1200px; */
-}
+/* header nav{
+    max-inline-size: 1200px;
+} */
 
 header nav ul{
     display: flex;
