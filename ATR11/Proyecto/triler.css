@@ -280,19 +280,44 @@ header{
         
         .cont-img{
             /* width: 100%; */
-            margin-right: 400px;
+            margin-right: 100px;
+            margin-top: 480px;
+            color: white;
+            
             .text-img{
-                margin-top: 300px;
-                color: white;
-            }
-    
-            ul{
+                    margin-bottom: 67px;
+
+                    h3{
+                        font-size: 18px;
+                    }
+
+                    h2{
+                        font-size: 34px;
+                        font-family: 'Figtree-Bold';
+                        
+                    }
+
+                }  
+
+            .cont-icon{
                 display: flex;
-                list-style: none;
-                
-                li{
-                    a{
-                        color: white;
+                gap: 20px;
+                ul{
+                    display: flex;
+                    list-style: none;
+                    gap: 20px;
+                    li{
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            span{
+                                font-size: 38px;
+                            }
+                            .number{
+                                float: right;
+                                margin-left: 10px;
+                            }
+                        }
                     }
                 }
             }
