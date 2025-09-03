@@ -306,6 +306,12 @@ header{
                     display: flex;
                     list-style: none;
                     gap: 20px;
+
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+
                     li{
                         a{
                             color: white;
