@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="triler.css">
+    <link rel="stylesheet" href="../Proyecto/triler.css">
     <link rel="shortcut icon" href="/ATR11/Proyecto/img/logo-trailer.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" /> -->
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" /> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
     <title>Trailer</title>
 </head>
@@ -16,14 +20,15 @@
         <div class="top-header">
             <div class="top-nav">
                 <a href="#">
-                    <img src="/ATR11/Proyecto/img/logo-trailer.svg" alt="Logo">
+                    <img src="../Proyecto/img/logo-trailer.svg" alt="Logo">
                 </a>
             </div>
             
             <div class="top-search">
 
                 <form action="">
-                    <span class="material-symbols-outlined">search</span>
+                    <!-- <span class="material-symbols-outlined">search</span> -->
+                    <ion-icon name="search-outline"></ion-icon>
                     <input type="search" placeholder="Buscar">
                 </form>    
             </div>
@@ -70,7 +75,7 @@
                                     <span class="material-symbols-outlined heart">favorite</span>
                                     <div class="number">
                                         <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>11.6k votes</div>
                                     </div>
                                 </a>
                             </li>
@@ -78,7 +83,7 @@
                                 <a href="#">
                                     <span class="material-symbols-outlined">favorite</span>
                                     <div class="number">
-                                        <div>Rate this movie</div>
+                                        <div class="ratio">Rate this movie</div>
                                         <div>What did you think?</div>
                                     </div>
                                 </a>
@@ -89,8 +94,8 @@
                                 <a href="#">
                                     <img src="../Proyecto/img/imdb.png" alt="">
                                     <div class="number">
-                                        <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>6.8</div>
+                                        <div>152k</div>
                                     </div>
                                 </a>
                             </li>
@@ -99,7 +104,7 @@
                                     <img src="../Proyecto/img/tmdb.svg" alt="">
                                     <div class="number">
                                         <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>3.4k</div>
                                     </div>
                                 </a>
                             </li>
@@ -107,8 +112,8 @@
                                 <a href="#">
                                     <img src="../Proyecto/img/certified.svg" alt="">
                                     <div class="number">
-                                        <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>76%</div>
+                                        <div>Certified</div>
                                     </div>
                                 </a>
                             </li>
@@ -116,17 +121,17 @@
                                 <a href="#">
                                     <img src="../Proyecto/img/Audiencia.svg" alt="">
                                     <div class="number">
-                                        <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>94%</div>
+                                        <div>Audience</div>
                                     </div>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a class="img-metacrit" href="#">
                                     <img src="../Proyecto/img/metacritic.png" alt="">
                                     <div class="number">
-                                        <div>73%</div>
-                                        <div>11.6k</div>
+                                        <div>58</div>
+                                        <span class="line-yellow"></span>
                                     </div>
                                 </a>
                             </li>
@@ -134,7 +139,8 @@
                                 <a href="#">
                                     <img src="../Proyecto/img/justwatch.svg" alt="">
                                     <div class="number">
-                                        <div>73%</div>
+                                        <div>424</div>
+                                        <div class="positive"></div>
                                         <div>11.6k</div>
                                     </div>
                                 </a>
@@ -147,5 +153,8 @@
             </div>
         </div>
     </main>
+    
 </body>
+<script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "> </script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "> </script>
 </html>
