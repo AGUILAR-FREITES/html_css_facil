@@ -362,6 +362,63 @@ header{
 
     }
 
-
-
 /* FIN DE IMAGEN PRINCIPAL */
+
+/* INICIO IMAGEN E INFORMACION PRINCIPAL */
+
+.layout-box{
+    max-inline-size: 1280px;
+    margin-inline: auto;
+    display: flex;
+    position: relative;
+    margin-bottom: 80px;
+    gap: 30px;
+
+    .info-principal{
+        margin-top: 111px;
+
+        .text-info{
+            max-inline-size: 737px;
+            padding-block-start: 33px;
+            /* padding-inline-start: 29px; */
+        }
+        .img{
+            background: url(../Proyecto/img/Equalizer-info.webp);
+            width: 700px;
+            height: 757px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+    }
+
+    aside{
+        margin-top: 111px;
+
+        .trilers-new{
+
+            .list{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                li{
+                    display: flex;
+                    gap: 18px;
+
+                    img{
+                        width: 97px; 
+                        height: 81px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+  
+
+/* FIN IMAGEN E INFORMACION PRINCIPAL */
