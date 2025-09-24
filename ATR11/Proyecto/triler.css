@@ -392,14 +392,15 @@ header{
         }
 
         .text-info{
-            font-size: 19px;
-            font-family: 'Figtree-Italic';
+            font-size: 14px;
+            font-family: 'Figtree';
             max-inline-size: 839px;
             padding-block-start: 33px;
             padding-inline-start: 29px;
             line-height: 27px;
 
             span{
+                font-size: 19px;
                 font-family: 'Figtree-Bold';
                 text-transform: uppercase;
                 font-weight: 900;
@@ -411,13 +412,31 @@ header{
     }
 
     aside{
+    
+
         margin-top: 111px;
 
         .social{
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 106px;
-                
+                background-color: #e2dfdf;
+                padding: 20px;
+
+            .latest-after1:after{
+            position: absolute;
+            content: " ";
+            height: 1px;
+            width: 28px;
+            background: #e0011a;
+            margin-top: 12px;
+            margin-left: 60px;
+        }
+
+            h3{
+                font-family: 'Roboto Condensed';
+                margin-bottom: 20px;
+            }
             ul{
                 margin-top: 10px;
                 list-style: none;
@@ -442,7 +461,8 @@ header{
                         border: none;
                         margin-bottom: 20px;
                         line-height: 36px;
-
+                        background-color: white;
+                        font-family: 'Roboto Condensed';
                         & div{
                                 width: 204px;
                                 height: 38px;
@@ -472,8 +492,21 @@ header{
         }
 
         .trilers-new{
+            background-color: #e2dfdf;
+            padding: 20px;
+
+            .latest-after1:after{
+            position: absolute;
+            content: " ";
+            height: 1px;
+            width: 28px;
+            background: #e0011a;
+            margin-top:  12px;
+            margin-left: 110px;
+        }
+
             h3{
-                font-family: "Roboto Condensed", sans-serif;
+                font-family: "Roboto Condensed";
                 font-weight: 900;
                 margin-bottom: 40px;
             }
@@ -499,6 +532,12 @@ header{
                         color: black;
                         text-decoration: none;
                         margin-bottom: 5px;
+                    }
+
+                    time{
+                        font-size: 12px;
+                        font-weight: 800;
+                        color: #959595;
                     }
                 }
             }
