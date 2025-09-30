@@ -17,6 +17,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family:"Figtree-Italic-VariableFont" ;
+    src: url(../Proyecto/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Figtree-VariableFont" ;
+    src: url(../Proyecto/fonts/Figtree-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -285,15 +297,48 @@ header{
             
             .text-img{
                     margin-bottom: 67px;
+                    
 
                     h3{
                         font-size: 18px;
+
+                    }
+
+                    h3:hover{
+                        color: #9F42C6;
+                        transition: all 0.5s;
                     }
 
                     h2{
+                        
+                        
                         font-size: 34px;
                         font-family: 'Figtree-Bold';
-                        
+
+                        time{
+                        color: #AAAAAA;
+                        font-size: 25px;
+                        font-weight: 200;
+                        }
+
+                        span{
+                            position: absolute;
+                            margin-top: 12px;
+                            margin-left: 10px;
+                            width: 20px;
+                            height: 20px;
+                            text-align: center;
+                            font-size: 13px;
+                            border: 1px solid white;
+                            text-transform: uppercase;
+                            line-height: 17px;
+                        }
+
+                        span:hover{
+                            background-color: white;
+                            color: #777777;
+                            transition: all 0.5s;
+                        }
                     }
 
                 }  
@@ -301,6 +346,7 @@ header{
             .cont-icon{
                 display: flex;
                 gap: 20px;
+
                 ul{
                     display: flex;
                     list-style: none;
@@ -312,14 +358,21 @@ header{
                     }
 
                     li{
+
                         a{
                             color: white;
                             text-decoration: none;
-                            span{
+
+                            .Heart{
+                                font-size: 38px;
+                                color: #9E2424;
+                            }
+
+                            span  {
                                 font-size: 38px;
                             }
 
-                           &.img-metacrit{
+                            &.img-metacrit{
                                 font-size: 2;
                                 img{
                                     border-radius: 50%;
@@ -328,14 +381,20 @@ header{
                                 }
                             }
 
+                            
+
                             .number{
                                 float: right;
                                 margin-left: 10px;
-
-                               .ratio{
+                                
+                                .icon-text{
+                                    color: #AAAAAA;
+                                    font-size: 14px;
+                                }
+                            
+                                .ratio{
                                     font-size: 18px !important;
-                                    
-                                    
+                                    line-height: 27px;
                                 }
 
                                 div:first-child{
@@ -352,7 +411,11 @@ header{
                                     margin-top: 2px;
                                 }
                             }
+
+
+                        
                         }
+
                     }
                 }
             }
@@ -371,17 +434,12 @@ header{
     margin-inline: auto;
     display: flex;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     gap: 64px;
 
     .info-principal{
         margin-top: 111px;
 
-        .text-info{
-            max-inline-size: 737px;
-            padding-block-start: 33px;
-            /* padding-inline-start: 29px; */
-        }
         .img{
             background: url(../Proyecto/img/Equalizer-info.webp);
             width: 700px;
@@ -394,10 +452,10 @@ header{
         .text-info{
             font-size: 14px;
             font-family: 'Figtree';
-            max-inline-size: 839px;
-            padding-block-start: 33px;
-            padding-inline-start: 29px;
-            line-height: 27px;
+            text-align: justify;
+            max-inline-size: 1108px;
+            padding-block-start: 30px;
+            line-height: 28px;
 
             span{
                 font-size: 19px;
@@ -543,10 +601,227 @@ header{
             }
         }
     }
+
+
+
 }
 
-
-
-
-
 /* FIN IMAGEN E INFORMACION PRINCIPAL */
+
+        /* INICIO REPARTO */
+
+.cont-actor{
+
+    .img-com{
+        width: 106px;
+        height: 140px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .actor{
+        max-inline-size: 1148px;
+        height: 270px;
+        margin-inline: auto;
+        
+        .title{
+            margin-bottom: 20px;
+
+            h2{
+                font-size: 24px;
+                font-weight: 200;
+                margin-bottom: 5px;
+                font-family: "Figtree-VariableFont";
+            }
+
+            h3{
+                display: flex;
+                width: 63px;
+                height: 18px;
+                background-color: #9F42C6;
+                align-items: center;
+                font-size: 13px;
+                font-family: "Figtree-VariableFont";
+                font-weight: 200;
+                line-height: 16px;
+                border-radius: 5%;
+                color: white;
+                padding: 5px;
+
+                .count{
+                    width: 26px;
+                    height: 14px;
+                    font-size: 10px;
+                    margin-left: 10px;
+                    font-weight: 800;
+                    background-color: white;
+                    border-radius: 15%;
+                    color: #9F42C6;
+                    text-align: center;
+                }
+            }
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 10px;
+            li{
+                
+                a{
+                    .img-act-1{
+                        background-image: url(../Proyecto/img/Actor_1.webp);
+                    }
+
+                    .img-act-2{
+                        background-image: url(../Proyecto/img/Actor_2.webp);
+                    }
+                    .img-act-3{
+                        background-image: url(../Proyecto/img/Actor_3.webp);
+                    }
+                    .img-act-4{
+                        background-image: url(../Proyecto/img/Actor_4.webp);
+                    }
+                    .img-act-5{
+                        background-image: url(../Proyecto/img/Actor_5.webp);
+                    }
+                    .img-act-6{
+                        background-image: url(../Proyecto/img/Actor_6.webp);
+                    }
+                    .img-act-7{
+                        background-image: url(../Proyecto/img/Actor_7.webp);
+                    }
+                    .img-act-8{
+                        background-image: url(../Proyecto/img/Actor_8.webp);
+                    }
+                    .img-act-9{
+                        background-image: url(../Proyecto/img/Actor_9.webp);
+                    }
+                    .img-act-10{
+                        background-image: url(../Proyecto/img/Actor_10.webp);
+                    }
+                }
+
+                p:nth-child(2){
+                    color:  #777777;
+                }
+
+                p{
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+}
+
+     /* FIN REPARTO */
+
+    
+    /* INICIO FOOTER */
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 170px;
+        background-color: black;
+
+        img{
+            width: 30px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-family: "Figtree-VariableFont";
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .foot-nav{
+
+            width:1005px ;
+            height: 150px;
+            margin-left: 20px;
+            margin-top: 15px;
+
+            .nav-b{
+
+                ul{
+                    display: flex;
+                    gap: 15px;
+                    list-style: none;
+                    
+                    /* border: 1px solid yellow; */
+                    
+                    li{
+                        /* margin-left: 10px; */
+                        /* border: 1px solid yellow; */
+
+                        a{
+                            /* color: white; */
+                            /* text-decoration: none; */
+                        }
+                    }
+                }
+            }
+
+            .foot-logo{
+                display: flex;
+                height: 80px;
+                color: white;
+                margin-top: 20px;
+                margin-left: 10px;
+                color: #777777;
+            }
+
+            .logo{
+                
+
+                img{
+                    opacity: .3;
+                }
+            }
+
+            .copyrigh{
+                margin-left: 10px;
+                font-size: 12px;
+            }
+        }
+
+
+        .foot-social{
+
+            margin-right: 10px;
+            margin-top: 15px;
+
+            ul{
+                display: flex;
+                gap: 15px;
+                
+
+                li{
+                    /* margin-left: 10px; */
+                
+
+                    a{
+                        /* color: white; */
+                        /* text-decoration: none; */
+                    }
+                }
+            }
+
+        }
+    }
+
+    /* INICIO FOOTER */
+
+
