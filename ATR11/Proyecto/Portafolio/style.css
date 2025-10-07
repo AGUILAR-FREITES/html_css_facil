@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Portafolio/img/Background-black.jpg);
+    background-position: center;
+    
+    
+}
+
+    header{
+        display: flex;
+        justify-content: center;
+        color: white;
+
+        .header{
+            display: flex;
+            flex-direction: column;
+            width: 900px;
+            height: 400px;
+            border: 2px solid red;
+            justify-items: center;
+            padding: 64px 32px;
+
+            .img{
+
+                display: flex;
+
+                border: 2px solid black;
+
+                .foto{
+                    background-image: url(../Portafolio/img/121772.jpeg);
+                    border-radius: 50%;
+                    background-position: center;
+                    background-size: cover;
+                    width: 128px;
+                    height: 128px;
+                }
+
+                .foto-text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    margin-left: 20px;
+                    
+                    
+
+                    .red-social{
+                        display: flex;
+                        margin-top: 10px;
+
+                        ul{
+                            display: flex;
+                            list-style: none;
+                            margin-left: 10px;
+
+                            li{
+                                margin-left: 10px;
+
+                                a{
+                                text-decoration: none;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .descripcion{
+                width: 100%;
+                border: 2px solid purple;
+                margin-top: 20px;
+
+                h3{
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+
+                p{
+                    font-size: 16px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+

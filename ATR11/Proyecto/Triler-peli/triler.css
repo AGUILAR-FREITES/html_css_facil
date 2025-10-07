@@ -6,26 +6,26 @@
 
 @font-face {
     font-family:"Figtree-Bold" ;
-    src: url(../Proyecto/fonts/Figtree-Bold.ttf);
+    src: url(../fonts/Figtree-Bold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family:"Figtree-Italic" ;
-    src: url(../Proyecto/fonts/Figtree-Italic.ttf);
+    src: url(../fonts/Figtree-Italic.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family:"Figtree-Italic-VariableFont" ;
-    src: url(../Proyecto/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(../fonts/Figtree-Italic-VariableFont_wght.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family:"Figtree-VariableFont" ;
-    src: url(../Proyecto/fonts/Figtree-VariableFont_wght.ttf);
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -44,17 +44,14 @@ header{
     height: 65px;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
-    /* color: white; */
     
         .top-header{
             display: flex;
             width: 100%;
             height: 65px;
-            /* align-items: center; */
             justify-content: space-around;
             align-items: center;
-            /* border: 1px solid red; */
-        
+
             .top-nav{
                 width: 32px;
                 height: 32px;
@@ -71,7 +68,6 @@ header{
                 margin-left: -310px;
                 border: 1px solid ;
                 border-radius: 8px;
-                /* background: #504f4f33; */
                 background-color: #ffffff33;
 
                 
@@ -79,7 +75,6 @@ header{
                 form{
                     display: flex;
                     align-items: center;
-                    /* margin-left: 10px; */
                     color: white;
                     
 
@@ -134,22 +129,17 @@ header{
 
 
             .top-menu {
-                /* border: 1px solid red;     */
                 
                 ul{
                     width: 500px;
                     display: flex;
                     margin-right: 170px;
                     justify-content: space-around;
-                    /* border: 1px solid red; */
-                    
                     
                     li{
-                        /* background-color: brown; */
                         list-style: none;
                         font-size: 16px;
                         
-
                         a{
                             display: block;
                             text-decoration: none;
@@ -175,7 +165,6 @@ header{
             }
 
             .top-usuario{
-                /* border: 1px solid red; */
                 width: 500px;
                 margin-right: -100px;
                 margin-left: -150px;
@@ -283,14 +272,11 @@ header{
     width: 100%;
     height: 657px;
     margin-top: -90px;
-    background: url(../Proyecto/img/EQUALIZER.png);
-    /* background-size: 2545px 565px; */
-    /* background-repeat: no-repeat; */
+    background: url(../img/EQUALIZER.png);
     background-position: top;
     background-size: cover;
         
         .cont-img{
-            /* width: 100%; */
             margin-right: 100px;
             margin-top: 480px;
             color: white;
@@ -441,7 +427,7 @@ header{
         margin-top: 111px;
 
         .img{
-            background: url(../Proyecto/img/Equalizer-info.webp);
+            background: url(../img/Equalizer-info.webp);
             width: 700px;
             height: 757px;
             background-size: cover;
@@ -584,7 +570,6 @@ header{
                     }
 
                     .item-title{
-                        /* font-size: 18px; */
                         font-family: 'Figtree-Bold';
                         font-weight: 900;
                         color: black;
@@ -673,40 +658,36 @@ header{
                 
                 a{
                     .img-act-1{
-                        background-image: url(../Proyecto/img/Actor_1.webp);
+                        background-image: url(../img/Actor_1.webp);
                     }
 
                     .img-act-2{
-                        background-image: url(../Proyecto/img/Actor_2.webp);
+                        background-image: url(../img/Actor_2.webp);
                     }
                     .img-act-3{
-                        background-image: url(../Proyecto/img/Actor_3.webp);
+                        background-image: url(../img/Actor_3.webp);
                     }
                     .img-act-4{
-                        background-image: url(../Proyecto/img/Actor_4.webp);
+                        background-image: url(../img/Actor_4.webp);
                     }
                     .img-act-5{
-                        background-image: url(../Proyecto/img/Actor_5.webp);
+                        background-image: url(../img/Actor_5.webp);
                     }
                     .img-act-6{
-                        background-image: url(../Proyecto/img/Actor_6.webp);
+                        background-image: url(../img/Actor_6.webp);
                     }
                     .img-act-7{
-                        background-image: url(../Proyecto/img/Actor_7.webp);
+                        background-image: url(../img/Actor_7.webp);
                     }
                     .img-act-8{
-                        background-image: url(../Proyecto/img/Actor_8.webp);
+                        background-image: url(../img/Actor_8.webp);
                     }
                     .img-act-9{
-                        background-image: url(../Proyecto/img/Actor_9.webp);
+                        background-image: url(../img/Actor_9.webp);
                     }
                     .img-act-10{
-                        background-image: url(../Proyecto/img/Actor_10.webp);
+                        background-image: url(../img/Actor_10.webp);
                     }
-                }
-
-                p:nth-child(2){
-                    color:  #777777;
                 }
 
                 p{
@@ -714,6 +695,10 @@ header{
                     font-family: sans-serif;
                     text-align: center;
                     margin-top: 5px;
+                }
+
+                 p:nth-child(3){
+                    color:  #777777;
                 }
             }
         }
@@ -760,17 +745,6 @@ header{
                     gap: 15px;
                     list-style: none;
                     
-                    /* border: 1px solid yellow; */
-                    
-                    li{
-                        /* margin-left: 10px; */
-                        /* border: 1px solid yellow; */
-
-                        a{
-                            /* color: white; */
-                            /* text-decoration: none; */
-                        }
-                    }
                 }
             }
 
@@ -808,20 +782,11 @@ header{
                 gap: 15px;
                 
 
-                li{
-                    /* margin-left: 10px; */
-                
-
-                    a{
-                        /* color: white; */
-                        /* text-decoration: none; */
-                    }
-                }
             }
 
         }
     }
 
-    /* INICIO FOOTER */
+    /* FIN FOOTER */
 
 
