@@ -32,7 +32,6 @@
 
 
 
-
     /* INICIO DE CABECERA */
 
 header{
@@ -697,7 +696,7 @@ header{
                     margin-top: 5px;
                 }
 
-                 p:nth-child(3){
+                p:nth-child(3){
                     color:  #777777;
                 }
             }

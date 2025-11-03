@@ -404,7 +404,7 @@ header .tool .social ul{
 
 .samurai .samurai-center{
 margin-left: 290px;
-
+position: relative;
     max-inline-size: 1280px;
     margin-inline: auto;
 }
@@ -425,7 +425,7 @@ margin-left: 290px;
     /* padding-block-start: 33px;
     padding-inline-start: 29px; */
     padding: 0 50px;
-    right: 850px;
+    right: 250px;
     margin-top: -650px;
     
     
