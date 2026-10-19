@@ -10,7 +10,8 @@
         "Geostorm",
         "triler",
         "TRILERS"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 
     
 }
